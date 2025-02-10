@@ -514,7 +514,8 @@ footer{
             - bottom: 1rem
             - left: 0
 */
-#section4 p:last-of-type{
+#section4 p:last-of-type{ 
+    margin: 1rem 0;
 
 }
 
@@ -551,7 +552,8 @@ footer{
         - center the image pattern in the container
         - add the puppy-photo as a repeating background to the container
 */
-#bg-img-3{
+#bg-img-3{ 
+    background: var(--lt-blue) center url("images/puppy-photo.jpg") ;
     
 }
 
@@ -578,7 +580,10 @@ footer{
         - scale the background image to 110% 
         - add the wood background texture from the images folder
 */
-#pattern1{
+#pattern1{ 
+    background-color: var(--light-gray);
+    background-size: 110%;
+    background-image: url("images/wood.png");
     
 }
 
